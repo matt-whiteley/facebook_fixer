@@ -6,8 +6,8 @@ Install this extension to chrome to remove the main body of Facebook's website, 
 
 ###Install Procedure
 
-1. Downlaod the manifest.json and main.js files, stick them in a nice folder on their own.
-2. Go to Chrome > extensions or [click here](chrome://extensions)
+1. Download the manifest.json and main.js files, stick them in a nice folder on their own.
+2. Go to Chrome > extensions
 3. Check the "Developer Mode" checkbox at the top
 4. Click "Load unpacked extension..." from the now visible options
 5. Select the folder that has the files you just downloaded
