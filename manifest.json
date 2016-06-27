@@ -1,0 +1,17 @@
+{
+  "name": "FacebookFixer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Hide the worst of FB",
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["main.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://www.facebook.com/*"
+  ]
+}
