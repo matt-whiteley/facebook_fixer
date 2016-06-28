@@ -5,15 +5,16 @@
   "description": "Hide the worst of FB",
   "content_scripts": [
     {
-      "matches": ["https://www.facebook.com/*"],
+      "matches": ["https://www.facebook.com/*", "https://www.facebook.com/*?"],
       "js": ["main.js"],
       "css": ["main.css"],
-      "run_at": "document_end"
+      "run_at": "document_idle"
     }
   ],
   "permissions": [
     "tabs",
-    "https://www.facebook.com/*"
+    "https://www.facebook.com/",
+	"https://www.facebook.com/*?"
   ],
   "web_accessible_resources": ["images/*"]
 }

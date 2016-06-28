@@ -1,3 +1,7 @@
 body{
   background: url('chrome-extension://__MSG_@@extension_id__/images/backgrounds/lake.jpg') !important;
 }
+#globalContainer{
+	visibility: hidden;
+	display: none;
+}
